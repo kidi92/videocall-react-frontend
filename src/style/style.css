@@ -1,0 +1,258 @@
+.myBG{
+    height: 100vh;
+    background-color: #E0F2FF;
+    background-size: cover;
+    background-image: url("../assets/bg.png");
+}
+
+.logo{
+    font-family: 'Righteous', sans-serif;
+}
+
+.date{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.admin{
+    padding-left: 20px;
+    height: 40vh;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.camera1{
+    padding-left: 10px;
+    height: 35vh;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.area{
+    padding-left: 10px;
+    height: 30vh;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.inputtext{
+    padding-top: 10px;
+    height: 30vh;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.textarea{
+    padding-left: 20px;
+    height: 40vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.calltitle{
+    height: 40vh;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.historytitle{
+    height: 50vh;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.call{
+    height: 35vh;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.history{
+    height: 40vh;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.button{
+    width: 20vh;
+}
+
+.buttonops{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.tabni{
+    padding-top: 10px;
+    background-color: aqua;
+}
+
+.thead{
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 60vh;
+}
+
+.join{
+    border: 0cap;
+    width: 10vh;
+    background-color: chartreuse;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+
+.tabelw{
+    padding-top: 20px;
+}
+
+.trku{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(147, 150, 150);
+}
+
+.infobox {
+    width: 1080px;
+    height: 1920px;
+    background-image: url("../assets/client-bg.png");
+}
+
+#cta-btn {
+    position: absolute;
+    top: 1347px;
+    left: 100px;
+    width: 867px;
+    height: 127px;
+    border-radius: 63px;
+    border: none;
+    background-color: #70d5d2;
+    font-size: 48px;
+    color: white;
+}
+
+.category{
+    width: 1080px;
+    height: 1920px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1080px;
+    height: 1920px;
+    background-image:  url("../assets/category.png");
+}
+
+input[type='radio']{
+    /* position: absolute; */
+    opacity: 0.1;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+input[type='radio']:checked{
+    appearance: none;
+    opacity: 0.3;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #3498db;
+}
+#cat_1{
+    position: absolute;
+    top: 590px;
+    left: 70px;
+}
+#cat_2{
+    position: absolute;
+    top: 590px;
+    left: 410px;
+}
+#cat_3{
+    position: absolute;
+    top: 590px;
+    left: 750px;
+}
+#cat_4{
+    position: absolute;
+    top: 980px;
+    left: 255px;
+}
+#cat_5{
+    position: absolute;
+    top: 980px;
+    left: 585px;
+}
+
+#cta-btn {
+    position: absolute;
+    top: 1347px;
+    left: 100px;
+    width: 867px;
+    height: 127px;
+    border-radius: 63px;
+    border: none;
+    background-color: #70d5d2;
+    font-size: 48px;
+    color: white;
+}
+
+#cat-btn{
+    position: absolute;
+    top: 1544px;
+    left: 225px;
+    width: 633px;
+    height: 127px;
+    border-radius: 63px;
+    border: none;
+    background-color: #2663e2;
+    font-size: 48px;
+    color: white;
+}
+
+.camerabox {
+    width: 1080px;
+    height: 1920px;
+    background-image: url("../assets/client-wait.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#exit-btn {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    font-size: 46px;
+    color: rgb(83, 82, 82);
+    opacity: 0.5;
+}
